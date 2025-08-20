@@ -1,0 +1,43 @@
+h1::before{
+  content: "Hi, My name is ";
+  background-color: red;
+  padding: 3px;
+  border: 2px solid blue;
+  border-radius: 5px;
+}
+
+h2::after{
+  content: " is my NAME";
+  background-color: blueviolet;
+  padding: 4px;
+  border: 3px dotted greenyellow;
+}
+
+h3{
+  animation: pointdown 1000ms infinite alternate-reverse;
+  
+}
+
+@keyframes pointdown{
+  0%{
+    transform: translateX(0);
+  }
+  
+  100%{
+    transform: translateX(100px);
+  }
+}
+
+h4{
+  animation: pointdown 1500ms infinite alternate-reverse;
+}
+
+@keyframes pointdown {
+  0%{
+    transform: translateY(0);
+  }
+
+  100%{
+    transform: translateY(150px);
+  }
+}

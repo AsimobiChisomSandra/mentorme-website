@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.login-div{
+  padding: 90px 90px;
+  margin: 150px 450px;
+  border: none;
+  width: 500px;
+  justify-items: center;
+  background-color: rgb(0, 132, 255);
+}
+
+.login-div h1{
+  font-weight: 800;
+  font-size: 40px;
+  margin-bottom: 70px;
+}
+
+
+.username{
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 700;
+  width: 450px;
+  padding: 7px;
+  margin-bottom: 25px;
+  border: none;
+}
+
+.password{
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 700;
+  width: 450px;
+  padding: 7px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.forgot-div{
+  display: flex;
+  gap: 200px;
+}
+
+.login-submit{
+  display: block;
+  margin-top: 50px;
+  padding: 15px 45px;
+  background-color: black;
+  color: white;
+  transition: 600ms;
+}
+
+.login-submit:hover{
+  color: black;
+  background-color: white;
+  opacity: 0.8;
+}
+
+.signup{
+  display: block;
+  margin-top: 10px;
+  color: black;
+}
